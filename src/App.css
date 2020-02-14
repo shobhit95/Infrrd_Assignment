@@ -1,0 +1,68 @@
+label {
+  font-size: 25px;
+}
+
+.container {
+  margin: 50px;
+}
+
+.centerBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-flow: column;
+  align-items: baseline;
+  justify-content: center;
+  margin-left: 500px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  padding: 10px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: inherit;
+}
+
+.marginDiv {
+  margin: 10px;
+}
+
+button {
+  height: 40px;
+  border: 0px;
+  border-radius: 12px;
+  background: #37373b40;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 15px;
+}
